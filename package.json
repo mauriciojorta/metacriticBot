@@ -1,13 +1,18 @@
 {
-  "name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
+  "name": "rtomatoes_bot",
+  "version": "0.1.0",
+  "description": "A telegram bot which search and returns movie and TV series links and data from Rottentomatoes.com",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.13.3"
+	"body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "ejs": "2.3.3",
+    "express": "^4.13.3",
+    "node-telegram-bot-api": "^0.21.1",
+    "request": "^2.69.0"
   },
   "engines": {
     "node": "4.0.0"
@@ -19,11 +24,10 @@
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+	"bot",
+	"telegram"
   ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
+  "author": "Mauricio José Orta Rodríguez",
   "license": "MIT"
 }
