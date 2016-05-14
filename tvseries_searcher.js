@@ -66,7 +66,7 @@ function search_tvseries(msg, destiny, sender_function)
 			message = message + "\n";		
 			$('.summary_detail.product_summary').filter(function(){
 
-                var data = $(this).children().last().children().first().children().first();
+                var data = $(this).children().last().children().first();
                 description = data.text();
            message = message + "Summary: " + description + "\n \n";
             })
