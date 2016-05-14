@@ -22,13 +22,13 @@ Usage mode:
 
 ## Screenshots
 
-![example 7](botscreenhot7.png)
-![example 1](botscreenhot1.png)
-![example 2](botscreenhot2.png)
-![example 3](botscreenhot3.png)
-![example 4](botscreenhot4.png)
-![example 5](botscreenhot5.png)
-![example 6](botscreenhot6.png)
+![example 7](botscreenshot7.png)
+![example 1](botscreenshot1.png)
+![example 2](botscreenshot2.png)
+![example 3](botscreenshot3.png)
+![example 4](botscreenshot4.png)
+![example 5](botscreenshot5.png)
+![example 6](botscreenshot6.png)
 
 ## Try it yourself
 
