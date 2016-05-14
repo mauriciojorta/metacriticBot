@@ -1,7 +1,7 @@
 {
-  "name": "rtomatoes_bot",
+  "name": "metacritic_bot",
   "version": "0.1.0",
-  "description": "A telegram bot which search and returns movie and TV series links and data from Rottentomatoes.com",
+  "description": "A telegram bot which search and returns movies, series, games and music info from metacritic.com",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

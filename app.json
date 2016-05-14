@@ -1,7 +1,8 @@
 {
-  "name": "Node.js Sample",
-  "description": "A telegram bot which search and returns movie and TV series links and data from Rottentomatoes.com",
+  "name": "Metacritic Bot",
+  "description": "A telegram bot which search and returns movies, series, games and music 
+  info from metacritic.com",
   "repository": "https://github.com/heroku/node-js-sample",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static", "searcher", "bot", "movies", "series", "TV", "rottentomatoes"]
+  "keywords": ["node", "express", "static", "searcher", "bot", "movies", "series", "TV", "games", "music", "metacritic"]
 }
