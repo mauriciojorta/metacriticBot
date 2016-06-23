@@ -14,10 +14,10 @@ A simple, unofficial telegram bot which searches and returns movies, videogames 
 ```
 Usage mode:
 /movie movie_name: Search for a movie data in metacritic 
-/tv series_name/series_season: Search for a TV series data in metacritic 
+/tv series_name/season season_number: Search for a TV series scores in metacritic
 /game console_name/game_name: Search for a videogame data of an especific console in metacritic 
 /music album/singer_or band: Search for a music album data of a singer or a band in metacritic 
-/search [movie|tv|game|album]/[movie_name|series_name|game_name|album_name] 
+/search [movie|tv|game|album]/[movie_name|series_name|game_name|album_name]: Searches and return a list of suggestions for a entered movie/tv series/game/album query 
 ```
 
 ## Screenshots
