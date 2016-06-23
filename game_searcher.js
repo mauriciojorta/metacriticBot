@@ -65,9 +65,22 @@ function search_game(msg, destiny, sender_function)
 			
 			$('.summary_detail.product_summary').filter(function(){
 
-                var data = $(this).children().last().children().first();
+                var data = $(this).children().last().children().first().children().eq(1);
 
+				if (data.attr('itemprop') === 'description')
+				{
                 description = data.text();
+				if (description.length>4096)
+				{
+					data = $(this).children().last().children().first().children().eq(0);
+					description = data.text();
+				}
+				}
+			else
+			{
+				data = $(this).children().last().children().first();
+				description = data.text();
+			}
            message = message + "Summary: " + description + "\n \n";
             })
 			message = message + "\n";
