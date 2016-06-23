@@ -79,12 +79,12 @@ suggestion_searcher.search_suggestions(msg, dest, sendMessageBack);
 
 bot.onText(/\/help|\/start/, function (msg, match) {
 
-  var resp = 'Usage mode:\n' + 
+ var resp = 'Usage mode:\n' + 
             '/movie movie_name: Search for a movie scores in metacritic \n' +
-            '/tv series_name/series_season: Search for a TV series scores in metacritic \n'+
+            '/tv series_name/season season_number: Search for a TV series scores in metacritic \n'+
 			'/game console_name/game_name: Search for a videogame scores of an especific console in metacritic \n' +
 			'/music album/singer_or band: Search for a music album scores of a singer or a band in metacritic \n'+
-			'/search [movie|tv|game|album]/[movie_name|series_name|game_name|album_name] \n';
+			'/search [movie|tv|game|album]/[movie_name|series_name|game_name|album_name]: Searches and return a list of suggestions for a entered movie/tv series/game/album query \n';
   
   console.log(msg, resp); //debug purposes
   bot.sendMessage(msg.chat.id, resp);
