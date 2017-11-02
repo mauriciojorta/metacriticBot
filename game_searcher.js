@@ -36,6 +36,7 @@ function search_game(msg, destiny, sender_function)
             var title, release, description, critic_rating, user_rating;
 			var message;
 			var i = 0;
+			var j = 0;
 			var error = 0;
 			
 			$('.error_code').filter(function(){
@@ -45,13 +46,16 @@ function search_game(msg, destiny, sender_function)
 	       error = 1;
             })
 			
-            $('h1.product_title').filter(function(){
+            $('.product_title').filter(function(){
 
                 var data = $(this).children().first().children().first();
 
                 title = data.text();
-
+				
+				console.log("Title:" + title);
+           if(j<1)
            message = title + "\n";
+	       j++;
 
             })
 			
