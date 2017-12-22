@@ -9,7 +9,7 @@ A simple, unofficial telegram bot which searches and returns movies, videogames 
 4. Music album data searcher (needs some improvement).*
 5. Suggestion searcher.
 
-* Previously available. Due to changes in the metacritic website interface since the first version of this bot (released in 2016), the bot can't fetch and return in most cases the data of movies, tv series and music albums. Nevertheless, the game and suggestion searcher are still fully functional.
+\* Previously available. Due to changes in the metacritic website interface since the first version of this bot (released in 2016), the bot can't fetch and return in most cases the data of movies, tv series and music albums. Nevertheless, the game and suggestion searcher are still fully functional.
 
 I'll try to fix the issues with the movie, TV series and Music Album searcher some day.
 
