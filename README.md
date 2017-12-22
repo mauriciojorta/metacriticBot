@@ -3,11 +3,15 @@
 A simple, unofficial telegram bot which searches and returns movies, videogames and music albums info from metacritic.com.
 
 ## Features
-1. Movie data searcher.
-2. TV series data searcher.
-3. Videogame data searcher.
-4. Music album data searcher (needs some improvement).
+1. Videogame data searcher.
+2. Movie data searcher. *
+3. TV series data searcher. *
+4. Music album data searcher (needs some improvement).*
 5. Suggestion searcher.
+
+* Previously available. Due to changes in the metacritic website interface since the first version of this bot (released in 2016), the bot can't fetch and return in most cases the data of movies, tv series and music albums. Nevertheless, the game and suggestion searcher are still fully functional.
+
+I'll try to fix the issues with the movie, TV series and Music Album searcher some day.
 
 
 ## Commands
