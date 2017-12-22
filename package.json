@@ -9,7 +9,7 @@
   "dependencies": {
 	"body-parser": "^1.15.0",
     "cheerio": "^0.20.0",
-    "ejs": "2.3.3",
+    "ejs": "2.5.5",
     "express": "^4.13.3",
     "node-telegram-bot-api": "^0.21.1",
     "request": "^2.69.0"
@@ -28,6 +28,6 @@
 	"bot",
 	"telegram"
   ],
-  "author": "Mauricio José Orta Rodríguez",
+  "author": "Mauricio JosÃ© Orta RodrÃ­guez",
   "license": "MIT"
 }
